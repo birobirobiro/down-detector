@@ -14,7 +14,7 @@
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://downdetector.vercel.app/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Visualização de status">
+  <meta property="og:title" content="Down Detector">
   <meta property="og:description" content="Real-time visualization of problems and failures in all types of services.">
   <meta property="og:image"
     content="https://github.com/birobirobiro/down-detector/blob/master/.github/og-image.jpeg?raw=true">
@@ -23,7 +23,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="downdetector.com.br">
   <meta property="twitter:url" content="https://downdetector.vercel.app/">
-  <meta name="twitter:title" content="Visualização de status">
+  <meta name="twitter:title" content="Down Detector">
   <meta name="twitter:description" content="Real-time visualization of problems and failures in all types of services.">
   <meta name="twitter:image"
     content="https://github.com/birobirobiro/down-detector/blob/master/.github/og-image.jpeg?raw=true">
@@ -43,9 +43,24 @@
 <body>
   <h1>Down Detector</h1>
 
-  <p>This app list all the services that are currently down and use service <a
-      href="https://www.atlassian.com/software/statuspage" target="_blank">Atlassian Status Page</a>
+  <p>This app list all the services that are currently down and use service
+    <a href="https://www.atlassian.com/software/statuspage" target="_blank">Atlassian Status Page
+    </a>
   </p>
+
+  <div class="container-legend">
+    <p class="operational">
+      operational
+    </p>
+
+    <p class="degraded">
+      unstable
+    </p>
+
+    <p class="down">
+      down
+    </p>
+  </div>
 
   <div id="status-container">
     <!-- Status data will be populated here -->
