@@ -9,8 +9,8 @@ async function getData() {
       url: `https://status.notion.so/${base_url}`
     },
     {
-      name: "GitHub",
-      url: `https://www.githubstatus.com${base_url}`
+      name: "Figma",
+      url: `https://status.figma.com/${base_url}`
     },
     {
       name: "Discord",
@@ -21,6 +21,10 @@ async function getData() {
       url: `https://www.vercel-status.com${base_url}`
     },
     {
+      name: "GitHub",
+      url: `https://www.githubstatus.com${base_url}`
+    },
+    {
       name: "Jira",
       url: `https://jira-software.status.atlassian.com/${base_url}`
     },
@@ -29,17 +33,17 @@ async function getData() {
       url: `https://status.openai.com/${base_url}`
     },
     {
-      name: "Panda Vídeo",
-      url: `https://status.pandavideo.com${base_url}`
-    },
-    {
       name: "npm",
       url: `https://status.npmjs.org/${base_url}`
     },
     {
-      name: "Figma",
-      url: `https://status.figma.com/${base_url}`
-    }
+      name: "Hubspot",
+      url: `https://status.hubspot.com${base_url}`
+    },
+    {
+      name: "Panda Vídeo",
+      url: `https://status.pandavideo.com${base_url}`
+    },
   ];
   const data = await Promise.all(websites.map(async (website) => {
     const response = await fetch(website.url);
