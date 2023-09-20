@@ -41,7 +41,7 @@ async function getData() {
       url: `https://status.hubspot.com${base_url}`
     },
     {
-      name: "Panda Vídeo",
+      name: "Panda Video",
       url: `https://status.pandavideo.com${base_url}`
     },
   ];
