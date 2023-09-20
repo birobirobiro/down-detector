@@ -5,8 +5,8 @@ async function getData() {
 
   const websites = [
     {
-      name: "Panda Vídeo",
-      url: `https://status.pandavideo.com${base_url}`
+      name: "Notion",
+      url: `https://status.notion.so/${base_url}`
     },
     {
       name: "GitHub",
@@ -21,9 +21,13 @@ async function getData() {
       url: `https://www.vercel-status.com${base_url}`
     },
     {
-      name: "iFood",
-      url: `https://ifood-merchant-api.statuspage.io/${base_url}`
-    }
+      name: "Jira",
+      url: `https://jira-software.status.atlassian.com/${base_url}`
+    },
+    {
+      name: "Panda Vídeo",
+      url: `https://status.pandavideo.com${base_url}`
+    },
   ];
   const data = await Promise.all(websites.map(async (website) => {
     const response = await fetch(website.url);
