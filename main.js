@@ -32,6 +32,14 @@ async function getData() {
       name: "Panda Vídeo",
       url: `https://status.pandavideo.com${base_url}`
     },
+    {
+      name: "npm",
+      url: `https://status.npmjs.org/${base_url}`
+    },
+    {
+      name: "Figma",
+      url: `https://status.figma.com/${base_url}`
+    }
   ];
   const data = await Promise.all(websites.map(async (website) => {
     const response = await fetch(website.url);
