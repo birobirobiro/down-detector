@@ -68,7 +68,11 @@ h1 {
 }
 
 .major_outage {
-  color: #f97316;
+  color: #ef4444;
+}
+
+.partial_outage {
+  color: #eab308;
 }
 
 .degraded {
