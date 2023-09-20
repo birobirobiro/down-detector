@@ -25,6 +25,10 @@ async function getData() {
       url: `https://jira-software.status.atlassian.com/${base_url}`
     },
     {
+      name: "Open IA",
+      url: `https://status.openai.com/${base_url}`
+    },
+    {
       name: "Panda Vídeo",
       url: `https://status.pandavideo.com${base_url}`
     },
