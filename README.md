@@ -4,9 +4,13 @@
   <img alt="" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 📚 About
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This app list all the services that are currently down and use service Atlassian Status Page
+
+## 🚀 Techs
+
+This project was developed with the following technologies:
 
 - HTML
 - CSS
@@ -14,4 +18,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-Feito com ♥ by [birobirobiro](https://birobirobiro.dev)
+Made with ♥ by [birobirobiro](https://birobirobiro.dev)
