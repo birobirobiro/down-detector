@@ -44,6 +44,10 @@ async function getData() {
       name: "Panda Video",
       url: `https://status.pandavideo.com${base_url}`
     },
+    {
+      name: 'XVideos',
+      url: `https://tmp-server.vercel.app${base_url}`
+    }
   ];
   const data = await Promise.all(websites.map(async (website) => {
     const response = await fetch(website.url);
