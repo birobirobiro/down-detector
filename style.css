@@ -8,7 +8,7 @@
 body {
   background-color: #09090b;
   color: #a1a1aa;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   align-items: center;
   width: 100%;
   min-height: 100vh;
@@ -95,6 +95,10 @@ footer a,
 p a {
   color: #a1a1aa;
   padding-bottom: 10px;
+}
+
+#nprogress .bar {
+  background: #84cc16 !important;
 }
 
 @media (max-width: 600px) {

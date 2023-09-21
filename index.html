@@ -2,39 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Down Detector</title>
 
-  <link rel="shortcut icon" href="favicon.png" type="image/x-png">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-png" />
 
   <!-- HTML Meta Tags -->
-  <meta name="description" content="Real-time visualization of problems and failures in all types of services.">
+  <meta name="description" content="Real-time visualization of problems and failures in all types of services." />
 
   <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://downdetector.vercel.app/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Down Detector">
-  <meta property="og:description" content="Real-time visualization of problems and failures in all types of services.">
+  <meta property="og:url" content="https://downdetector.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Down Detector" />
+  <meta property="og:description"
+    content="Real-time visualization of problems and failures in all types of services." />
   <meta property="og:image"
-    content="https://res.cloudinary.com/dzp6uwf2o/image/upload/v1695183917/others/qtk3tf4rxopdk6xwcm27.jpg">
+    content="https://res.cloudinary.com/dzp6uwf2o/image/upload/v1695183917/others/qtk3tf4rxopdk6xwcm27.jpg" />
 
   <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="downdetector.com.br">
-  <meta property="twitter:url" content="https://downdetector.vercel.app/">
-  <meta name="twitter:title" content="Down Detector">
-  <meta name="twitter:description" content="Real-time visualization of problems and failures in all types of services.">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content="downdetector.com.br" />
+  <meta property="twitter:url" content="https://downdetector.vercel.app/" />
+  <meta name="twitter:title" content="Down Detector" />
+  <meta name="twitter:description"
+    content="Real-time visualization of problems and failures in all types of services." />
   <meta name="twitter:image"
-    content="https://res.cloudinary.com/dzp6uwf2o/image/upload/v1695183917/others/qtk3tf4rxopdk6xwcm27.jpg">
+    content="https://res.cloudinary.com/dzp6uwf2o/image/upload/v1695183917/others/qtk3tf4rxopdk6xwcm27.jpg" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 
   <!-- Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 
   <!-- JavaScript -->
   <script src="main.js" type="module" defer></script>
@@ -43,33 +45,34 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQQV99KCX3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    gtag('config', 'G-QQQV99KCX3');
+    gtag("config", "G-QQQV99KCX3");
   </script>
+
+  <!-- NProgress.js and NProgress.css -->
+  <link rel="stylesheet" href="./nprogress.css" />
+  <script src="./nprogress.js"></script>
 </head>
 
 <body>
   <h1>Down Detector</h1>
 
-  <p>This app list all the services that are currently down and use service
+  <p>
+    This app list all the services that are currently down and use service
     <a href="https://www.atlassian.com/software/statuspage" target="_blank">Atlassian Status Page
     </a>
   </p>
 
   <div class="container-legend">
-    <p class="operational">
-      operational
-    </p>
+    <p class="operational">operational</p>
 
-    <p class="degraded">
-      unstable
-    </p>
+    <p class="degraded">unstable</p>
 
-    <p class="down">
-      down
-    </p>
+    <p class="down">down</p>
   </div>
 
   <div id="status-container">
@@ -77,7 +80,8 @@
   </div>
 
   <footer>
-    Developed by <a href="https://birobirobiro.dev" target="_blank">birobirobiro</a>
+    Developed by
+    <a href="https://birobirobiro.dev" target="_blank">birobirobiro</a>
   </footer>
 </body>
 
