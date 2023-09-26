@@ -63,19 +63,14 @@ h1 {
   color: #84cc16;
 }
 
+.degraded,
+.partial_outage,
+.degraded_performance {
+  color: #eab308;
+}
+
+.down,
 .major_outage {
-  color: #ef4444;
-}
-
-.partial_outage {
-  color: #eab308;
-}
-
-.degraded {
-  color: #eab308;
-}
-
-.down {
   color: #ef4444;
 }
 
