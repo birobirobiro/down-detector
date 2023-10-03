@@ -27,6 +27,10 @@ async function getData() {
       url: `https://status.render.com/${base_url}`,
     },
     {
+      name: "Cloudinary",
+      url: `https://status.cloudinary.com/${base_url}`,
+    },
+    {
       name: "Jira",
       url: `https://jira-software.status.atlassian.com/${base_url}`,
     },
