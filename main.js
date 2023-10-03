@@ -1,5 +1,5 @@
 async function getData() {
-  const base_url = "/api/v2/summary.json";
+  const base_url = "api/v2/summary.json";
 
   const websites = [
     {
@@ -12,15 +12,15 @@ async function getData() {
     },
     {
       name: "Discord",
-      url: `https://discordstatus.com${base_url}`,
+      url: `https://discordstatus.com/${base_url}`,
     },
     {
       name: "Vercel",
-      url: `https://www.vercel-status.com${base_url}`,
+      url: `https://www.vercel-status.com/${base_url}`,
     },
     {
       name: "GitHub",
-      url: `https://www.githubstatus.com${base_url}`,
+      url: `https://www.githubstatus.com/${base_url}`,
     },
     {
       name: "Render",
@@ -40,11 +40,11 @@ async function getData() {
     },
     {
       name: "Hubspot",
-      url: `https://status.hubspot.com${base_url}`,
+      url: `https://status.hubspot.com/${base_url}`,
     },
     {
       name: "Panda Video",
-      url: `https://status.pandavideo.com${base_url}`,
+      url: `https://status.pandavideo.com/${base_url}`,
     },
   ];
   const data = await Promise.all(
